@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const axiosClient = axios.create({ baseURL: "http://localhost:3000" })
+const axiosClient = axios.create({ baseURL: import.meta.env.VITE_API_URL })
 
 const getMovies = async () => {
   const { data: movies } = await axiosClient.get("/movies")
