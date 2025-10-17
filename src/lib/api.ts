@@ -1,6 +1,8 @@
 import axios from "axios"
 
-const axiosClient = axios.create({ baseURL: import.meta.env.VITE_API_URL })
+const axiosClient = axios.create({
+  baseURL: "https://pantar-back-production.up.railway.app",
+})
 
 const getMovies = async () => {
   const { data: movies } = await axiosClient.get("/movies")
