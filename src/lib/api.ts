@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const axiosClient = axios.create({
-  baseURL: "https://pantar-back-production.up.railway.app",
+  baseURL: "https://pantar-back-production-80ad.up.railway.app",
 })
 
 const getMovies = async () => {
