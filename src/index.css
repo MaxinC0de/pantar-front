@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+  color: white;
+  background-color: black;
+}
+
+@font-face {
+  font-family: "inter";
+  src: url("/src//fonts/inter-reg.ttf");
+}
+
+body {
+  font-family: "inter";
+  height: 10vh;
+  color: white;
+}

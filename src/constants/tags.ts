@@ -1,0 +1,17 @@
+export const tags = [
+  "1960",
+  "1970",
+  "1980",
+  "1990",
+  "2000",
+  "2010",
+  "2020",
+  "seen",
+  "not seen",
+  "watchlist",
+  "aventure",
+  "theatre",
+  "french",
+  "american",
+  "brazilian",
+]
